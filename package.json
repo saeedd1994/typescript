@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "this is sample test for ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saeedd1994/typescript.git"
+  },
+  "author": "saeed dashti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saeedd1994/typescript/issues"
+  },
+  "homepage": "https://github.com/saeedd1994/typescript#readme"
+}
