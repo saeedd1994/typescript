@@ -4,7 +4,7 @@
   "description": "this is sample test for ts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node-dev --no-notify --respawn index.ts"
   },
   "repository": {
     "type": "git",
