@@ -1,8 +1,12 @@
-console.log('hello ts')
-const nothing: null = null;
-const undef: undefined = undefined;
-const sentence: string = 'this is a test for ts';
-console.log(sentence.includes('is'))
-const f = (a: number, b: number): number => {
-    return a + b;
+const post= {
+    title: 'this is a new post',
+    ageDay: 10,
+    publish: true
 }
+
+const show = (addPostHere : {title: string, ageDay: number, publish: boolean})=>{
+    console.log(addPostHere)
+    return `the title of post is : (${post.title}) and published ${post.ageDay} days ago`
+}
+
+console.log(show(post))
