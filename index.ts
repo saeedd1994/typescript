@@ -1,18 +1,16 @@
-interface PostGateKeeper {
-    title: string;
-    ageDay: number;
-    publish: boolean;
+class Car {
+
+    color: string= 'red';
+    year: number = 1994
+    // constructor(color: string, year: number) {
+    //     this.color= color;
+    //     this.year= year;
+    // }
+    drive(): void{
+        console.log('I am driving now...');
+    }
 }
 
-const post= {
-    title: 'this is a new post',
-    ageDay: 10,
-    publish: true
-}
-
-const show = (addPostHere : PostGateKeeper)=>{
-    console.log(addPostHere)
-    return `the title of post is : (${post.title}) and published ${post.ageDay} days ago`
-}
-
-console.log(show(post))
+const car = new Car();
+console.log(car.year, car.color)
+console.log(car.drive());
