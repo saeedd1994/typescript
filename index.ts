@@ -7,7 +7,7 @@ class Car {
         this.year= year;
     }
 
-    drive(){
+    drive(): void{
         console.log(this.year)
         console.log('I am driving now...');
     }
@@ -15,4 +15,4 @@ class Car {
 }
 
 const car = new Car('red', 1994);
-console.log(car.drive());
+car.drive();
