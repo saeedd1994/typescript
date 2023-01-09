@@ -1,8 +1,7 @@
 class Car {
 
-    public color: string;
-    private readonly year: number
-    constructor(color: string, year: number) {
+
+    constructor(public color: string, private readonly year: number) {
         this.color= color;
         this.year= year;
     }
