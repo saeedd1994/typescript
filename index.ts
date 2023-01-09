@@ -1,17 +1,11 @@
-class Car {
-
-
-    constructor(public color: string, private readonly year: number) {
-        this.color= color;
-        this.year= year;
-    }
-
-    drive(): void{
-        console.log(this.year)
-        console.log('I am driving now...');
-    }
-
+const Component = (target: any) => {
+    console.log('target :   ', target)
 }
 
-const car = new Car('red', 1994);
-car.drive();
+
+@Component
+
+class Car {
+    constructor() {
+    }
+}
