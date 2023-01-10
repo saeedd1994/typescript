@@ -10,6 +10,8 @@ export class Car {
     drive(): void{
         console.log(this.year)
         console.log('I am driving now...');
+        console.log('hello');
+        
     }
 
 }
